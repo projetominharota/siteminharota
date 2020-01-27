@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hind, sans-serif;
+}
+header {
+    height: 12vh;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 5px #ddd;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+header .logo {
+    height: 80px;
+    width: 200px;
+}
+
+header aside {
+    display: flex;
+    align-items: center;
+}
+
+header .events_button {
+    background-color: #000cef;
+    text-align: center;
+    font-size: 26px;
+    width: 170px;
+    color: white;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+body .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+body .top img {
+    width: 780px
+}
+
+body .top .top-text {
+    margin: 0 7vw;
+}
+
+body .top .top-text h1{
+    color: #000CEF;
+    font-size: 64px;
+    text-align: center;
+
+}
+
+body .top .top-text p {
+    font-family: Hind;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 34px;
+    align-items: center;
+    text-align: justify;
+}
+
+body .mid {
+    background-image: url("./assets/background_2section.png");
+    height: 560px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body .mid .text-section {
+    padding-top: 130px;
+    margin-left: 96px
+}
+
+body .mid .text-section h1{
+    color: white;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 154px;
+    max-width: 610px;
+    text-align: center;
+}
+
+body .mid .text-section p{
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 40px;
+    text-align: justify;
+    max-width: 610px;
+}
+
+body .bottom {
+    margin: 10vh 0;
+    display: flex;
+}
+
+body .bottom .schedule-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    padding: 0 10vh;
+}
+
+body .bottom .schedule-section p {
+    margin-top: 3vh;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+body .bottom .ticket-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 50%;
+}
+
+body .bottom .ticket-section a {
+    background-color: #000CEF;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 300px;
+    border-radius: 50px;
+    font-size: 36px;
+    text-align: center;
+    margin: 3vh;
+}
+
+body .bottom .ticket-section h1 {
+    margin-top: 2vh;
+    color: #000CEF;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+body .bottom .ticket-section h2 {
+    color: #000CEF;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+footer {
+    display: flex;
+    background-color: #000CEF;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
