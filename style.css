@@ -37,6 +37,11 @@ header .events_button {
     padding: 10px;
     border-radius: 70px;
     cursor: pointer;
+    transition: background 0.2s;
+}
+
+header .events_button:hover {
+    background-color: #0098FF;
 }
 
 body .top {
@@ -144,6 +149,12 @@ body .bottom .ticket-section a {
     font-size: 36px;
     text-align: center;
     margin: 3vh;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+body .bottom .ticket-section a:hover {
+    background-color: #0098FF;
 }
 
 body .bottom .ticket-section h1 {
