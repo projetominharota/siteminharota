@@ -186,6 +186,8 @@ footer p {
     letter-spacing: 0.5px;
 }
 
+/* ========== Responsividade =========== */
+
 @media (max-width: 1260px) {
     .top img {
         max-width: 500px;
