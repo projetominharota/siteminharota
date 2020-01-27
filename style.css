@@ -86,7 +86,7 @@ body .mid {
 }
 
 body .mid .text-section {
-    padding-top: 130px;
+    padding-top: 80px;
     margin-left: 96px
 }
 
@@ -112,6 +112,7 @@ body .mid .text-section p{
 body .bottom {
     margin: 10vh 0;
     display: flex;
+    justify-content: center;
 }
 
 body .bottom .schedule-section {
@@ -137,7 +138,6 @@ body .bottom .ticket-section {
     align-items: center;
     justify-content: flex-start;
     max-width: 50%;
-    margin-left: 30px;
 }
 
 body .bottom .ticket-section a {
