@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3.5vw 10vw;
+    padding: 0 10vw;
 }
 
 header .logo {
@@ -28,7 +28,7 @@ header aside {
 }
 
 header .events_button {
-    background-color: #000CEF;
+    background-color: #000cef;
     text-align: center;
     font-size: 26px;
     width: 170px;
@@ -38,10 +38,12 @@ header .events_button {
     border-radius: 70px;
     cursor: pointer;
     transition: background 0.2s;
+    text-decoration: none;
 }
 
 header .events_button:hover {
-    background-color: rgb(4, 142, 255);}
+    background-color: #0098FF;
+}
 
 body .top {
     display: flex;
@@ -56,6 +58,9 @@ body .top img {
 
 body .top .top-text {
     margin: 0 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body .top .top-text h1{
@@ -73,6 +78,7 @@ body .top .top-text p {
     line-height: 34px;
     align-items: center;
     text-align: justify;
+    max-width: 70%;
 }
 
 body .mid {
@@ -85,17 +91,15 @@ body .mid {
 }
 
 body .mid .text-section {
-    padding-top: 80px;
     margin-left: 96px
 }
 
 body .mid .text-section h1{
     color: white;
     font-weight: bold;
-    font-size: 56px;
-    line-height: 84px;
-    max-width: 610px;
-    text-align: left;
+    font-size: 60px;
+    max-width: 70vw;
+    text-align: start;
 }
 
 body .mid .text-section p{
@@ -137,25 +141,6 @@ body .bottom .ticket-section {
     align-items: center;
     justify-content: flex-start;
     max-width: 50%;
-}
-
-body .bottom .ticket-section a {
-    background-color: #000CEF;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    width: 300px;
-    border-radius: 50px;
-    font-size: 27px;
-    text-align: center;
-    text-decoration: none;
-    margin: 3vh;
-    transition: background 0.2s;
-    cursor: pointer;
-}
-
-body .bottom .ticket-section a:hover {
-    background-color: rgb(4, 142, 255);
 }
 
 body .bottom .ticket-section h1 {
@@ -209,9 +194,6 @@ footer p {
         font-size: 36px;
     }
 
-    body .mid .text-section h1 {
-        font-size: 76px;
-    }
 
     body .mid .text-section p {
         line-height: 35px;
@@ -268,22 +250,23 @@ footer p {
 
     body .mid .text-section {
         margin: 0;
+        padding-top: 60px;
         align-items: center;
         justify-content: center;
     }
 
     body .mid .text-section h1 {
-        font-size: 60px;
         max-width: 90vw;
         line-height: 50px;
         margin-left: 10px;
+        text-align: center;
     }
 
     body .mid .text-section p {
         max-width: 90vw;
-        padding: 10vw;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 35px;
+        padding-left: 7vw;
     }
 
     body .bottom {
@@ -301,7 +284,7 @@ footer p {
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 582px) {
     header .logo {
         height: 80px;
         width: 100px;
@@ -334,5 +317,16 @@ footer p {
 
     footer p {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body .mid .text-section p {
+        line-height: 30px;
+        font-size: 16px;
+    }
+    
+    body .mid .text-section h1 {
+        font-size: 40px;
     }
 }
