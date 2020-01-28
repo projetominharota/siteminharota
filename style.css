@@ -28,7 +28,7 @@ header aside {
 }
 
 header .events_button {
-    background-color: #000cef;
+    background-image: linear-gradient(-90deg, #000CEF, rgb(4, 142, 255));
     text-align: center;
     font-size: 26px;
     width: 170px;
@@ -41,7 +41,7 @@ header .events_button {
 }
 
 header .events_button:hover {
-    background-color: #0098FF;
+    background-image: linear-gradient(-90deg, rgb(4, 142, 255),#000CEF);
 }
 
 body .top {
@@ -141,7 +141,7 @@ body .bottom .ticket-section {
 }
 
 body .bottom .ticket-section a {
-    background-color: #000CEF;
+    background-image: linear-gradient(-90deg, #000CEF, rgb(4, 142, 255));
     color: white;
     font-weight: bold;
     padding: 10px;
@@ -155,7 +155,7 @@ body .bottom .ticket-section a {
 }
 
 body .bottom .ticket-section a:hover {
-    background-color: #0098FF;
+    background-image: linear-gradient(-90deg, rgb(4, 142, 255),#000CEF);
 }
 
 body .bottom .ticket-section h1 {
@@ -175,7 +175,7 @@ body .bottom .ticket-section h2 {
 
 footer {
     display: flex;
-    background-color: #000CEF;
+    background-image: linear-gradient(-90deg, #000CEF, rgb(4, 142, 255));
     height: 80px;
     align-items: center;
     justify-content: center;
