@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw;
+    padding: 3.5vw 10vw;
 }
 
 header .logo {
@@ -92,10 +92,10 @@ body .mid .text-section {
 body .mid .text-section h1{
     color: white;
     font-weight: bold;
-    font-size: 96px;
-    line-height: 154px;
+    font-size: 56px;
+    line-height: 84px;
     max-width: 610px;
-    text-align: center;
+    text-align: left;
 }
 
 body .mid .text-section p{
@@ -146,8 +146,9 @@ body .bottom .ticket-section a {
     padding: 10px;
     width: 300px;
     border-radius: 50px;
-    font-size: 36px;
+    font-size: 27px;
     text-align: center;
+    text-decoration: none;
     margin: 3vh;
     transition: background 0.2s;
     cursor: pointer;
